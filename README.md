@@ -26,11 +26,11 @@
 ```text
 Start 🚀
 ├── HTML Topics
-|   ├── Class-01-HTML-Basics/          # HTML এর একদম শুরুর দিকের কোড
-|   ├── Class-02-HTML-Topics-Part1/    # HTML এর একদম শুরুর দিকের কোড
-|   ├── Class-03-HTML-Topics-Part2/    # HTML এর একদম শুরুর দিকের কোড
-|   ├── Class-04-HTML-Topics-Part3/    # HTML এর একদম শুরুর দিকের কোড
+|   ├── Class-01-HTML-Basics/    
+|   ├── Class-02-HTML-Topics-Part1/    
+|   ├── Class-03-HTML-Topics-Part2/    
+|   ├── Class-04-HTML-Topics-Part3/    
 ├── CSS Topics
-|   ├── Class-05-Intro-to-CSS/         # আজকের ক্লাস (CSS এর বেসিক ধারণা)
-|   ├── Class-06-CSS-Selectors/        # আজকের ক্লাস (CSS এর বেসিক ধারণা)
+|   ├── Class-05-Intro-to-CSS/         
+|   ├── Class-06-CSS-Selectors/
 ```

@@ -9,12 +9,14 @@
     <title>Learning CSS</title>
 
     <style>
+        /* global selector */
         * {
             padding: 0;
             margin: 0;
             box-sizing: border-box;
         }
 
+        /* tag selector */
         nav {
             display: flex;
             justify-content: space-between;
@@ -35,6 +37,8 @@
             cursor: pointer;
         }
 
+        /* parent child selector */
+
         nav span {
             color: blue;
             font-style: italic;
@@ -47,6 +51,7 @@
             border: none;
         }
 
+        /* id seleltor */
         #button1 {
             background-color: blue;
         }
@@ -55,10 +60,16 @@
             background-color: blue;
         }
 
+        /* class selector */
         .button {
             background-color: red;
 
         }
+
+        /* spacific child selector */
+        /* .button:nth-child(odd){
+            background-color: green;
+        } */
     </style>
 </head>
 
@@ -81,11 +92,13 @@
 
         <section style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
             jlkasdjflasjdflksdjf
+            <!-- selected by id -->
             <button id="button1">Button1</button>
             <button id="button2">Button2</button>
             <button class="button">Button2</button>
             <button class="button">Button2</button>
             <button>Button2</button>
+            <!-- selected by class -->
             <button class="button">Button2</button>
         </section>
     </main>
