@@ -1,0 +1,95 @@
+<!-- css selector idea -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning CSS</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: #2525d83d;
+            align-items: center;
+        }
+
+        ul {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+        }
+
+        li:hover {
+            color: blue;
+            cursor: pointer;
+        }
+
+        nav span {
+            color: blue;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        section button {
+            padding: 10px;
+            margin: 10px;
+            border: none;
+        }
+
+        #button1 {
+            background-color: blue;
+        }
+
+        #button2 {
+            background-color: blue;
+        }
+
+        .button {
+            background-color: red;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <nav>
+            <div>
+                <span>L</span>ogo
+            </div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Skills</li>
+                <li>contact</li>
+            </ul>
+            <!-- <div>01700000000</div> -->
+            <button>Hire Me</button>
+        </nav>
+
+        <section style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+            jlkasdjflasjdflksdjf
+            <button id="button1">Button1</button>
+            <button id="button2">Button2</button>
+            <button class="button">Button2</button>
+            <button class="button">Button2</button>
+            <button>Button2</button>
+            <button class="button">Button2</button>
+        </section>
+    </main>
+
+</body>
+
+</html>
