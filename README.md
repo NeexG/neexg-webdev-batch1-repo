@@ -22,9 +22,24 @@
 ### * **CSS3:** ওয়েবসাইটকে কালার, ফন্ট এবং লেআউট দিয়ে ডিজাইন করা।
  - Basic Intro
  - Selector
+ - CSS Box Model
+ - Colors & Backgrounds
+ - Text & Typography
+ - Display Property (Block vs Inline)
+ - CSS Positions
+ - Flexbox
+ - Pseudo-classes & Pseudo-elements
+ - CSS Grid
+ - Media Queries & Responsive Design (Advanced Topic)
+ - Transitions & Animations (Advanced Topic)
+ - CSS Variables (Advanced Topic)
+ - Overflow & Sizing Properties
+
 ---
+
+### 📂 Class Folder Structure
 ```text
-Start 🚀
+web-development-batch-1 🚀
 ├── HTML Topics
 |   ├── Class-01-HTML-Basics/    
 |   ├── Class-02-HTML-Topics-Part1/    
@@ -33,4 +48,6 @@ Start 🚀
 ├── CSS Topics
 |   ├── Class-05-Intro-to-CSS/         
 |   ├── Class-06-CSS-Selectors/
+|   ├── Class-07-CSS-Topics-Part1/
+
 ```
