@@ -49,5 +49,9 @@ web-development-batch-1 🚀
 |   ├── Class-05-Intro-to-CSS/         
 |   ├── Class-06-CSS-Selectors/
 |   ├── Class-07-CSS-Topics-Part1/
+|   ├── Class-08-CSS-Practical
 
 ```
+
+## Practical Repository Resource Links
+- Class 08 => [Gamer Play Like a GOAT](https://github.com/Rakibjrb/Gamer-play-like-a-goat)
