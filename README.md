@@ -35,6 +35,11 @@
  - CSS Variables (Advanced Topic)
  - Overflow & Sizing Properties
 
+### * **CSS Framework:** Tailwind CSS
+আমরা এখন শিখছি আধুনিক ওয়েবসাইটের সবচেয়ে জনপ্রিয় সিএসএস ফ্রেমওয়ার্ক **Tailwind CSS**। এটি একটি **Utility-First** ফ্রেমওয়ার্ক, যার মানে হলো সিএসএস ফাইলে হাজার লাইনের কোড না লিখে সরাসরি HTML ট্যাগের ভেতরে ক্লাসের মাধ্যমে ডিজাইন করা যায়।
+  - Intro to Tailwind CSS
+  - Installation (CDN)
+
 ---
 
 ### 📂 Class Folder Structure
@@ -50,8 +55,11 @@ web-development-batch-1 🚀
 |   ├── Class-06-CSS-Selectors/
 |   ├── Class-07-CSS-Topics-Part1/
 |   ├── Class-08-CSS-Practical
+|   ├── Class-09-CSS-Practical
+|   ├── Class-10-CSS-Framework
 
 ```
 
 ## Practical Repository Resource Links
 - Class 08 => [Gamer Play Like a GOAT](https://github.com/Rakibjrb/Gamer-play-like-a-goat)
+- Class 10 => [Ai Universe HUB](https://github.com/Rakibjrb/ai-usniverse-hub)
