@@ -57,9 +57,11 @@ web-development-batch-1 🚀
 |   ├── Class-08-CSS-Practical
 |   ├── Class-09-CSS-Practical
 |   ├── Class-10-CSS-Framework
+|   ├── Class-11-CSS-Tailwind-Project
 
 ```
 
 ## Practical Repository Resource Links
 - Class 08 => [Gamer Play Like a GOAT](https://github.com/Rakibjrb/Gamer-play-like-a-goat)
 - Class 10 => [Ai Universe HUB](https://github.com/Rakibjrb/ai-usniverse-hub)
+- Class 11 => [Simple E-Commerce Website](https://github.com/Rakibjrb/fruitburst-assignment)
