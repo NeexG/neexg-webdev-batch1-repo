@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Portfolio Website</title>
+</head>
+
+<body class="bg-slate-50 text-slate-800 antialiased dark:bg-slate-900 dark:text-slate-100">
+
+    <header
+        class="sticky top-0 z-50 backdrop-blur-md bg-white/70 dark:bg-slate-900/70 border-b border-slate-200 dark:border-slate-800">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#"
+                class="text-xl font-bold tracking-tight bg-gradient-to-r river from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                NeexG.
+            </a>
+            <nav class="hidden md:flex space-x-8 font-medium text-sm">
+                <a href="#about" class="hover:text-blue-600 transition-colors">About</a>
+                <a href="#projects" class="hover:text-blue-600 transition-colors">Projects</a>
+                <a href="#contact" class="hover:text-blue-600 transition-colors">Contact</a>
+            </nav>
+            <a href="#contact"
+                class="px-4 py-2 bg-slate-900 text-white dark:bg-white dark:text-slate-900 rounded-full text-sm font-semibold hover:opacity-90 transition-opacity">
+                Let's Talk
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="max-w-7xl mx-auto px-6 py-20 md:py-32 flex flex-col items-center text-center">
+            <span
+                class="px-3 py-1 bg-blue-50 text-blue-600 dark:bg-blue-950/50 dark:text-blue-400 rounded-full text-xs font-semibold uppercase tracking-wider mb-6">
+                Available for Freelance Work
+            </span>
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight max-w-3xl leading-tight">
+                Crafting Digital Experiences with <span
+                    class="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">AI &
+                    Design</span>
+            </h1>
+            <p class="mt-6 text-lg text-slate-600 dark:text-slate-400 max-w-xl">
+                I help brands grow by creating high-converting content, modern visual designs, and AI-driven automation
+                workflows.
+            </p>
+            <div class="mt-10 flex flex-col sm:flex-row gap-4">
+                <a href="#projects"
+                    class="px-6 py-3 bg-blue-600 text-white rounded-xl font-medium shadow-lg shadow-blue-500/20 hover:bg-blue-700 transition-colors">
+                    View My Work
+                </a>
+                <a href="#about"
+                    class="px-6 py-3 bg-white dark:bg-slate-800 text-slate-900 dark:text-white rounded-xl font-medium border border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-750 transition-colors">
+                    About Me
+                </a>
+            </div>
+        </section>
+
+        <hr class="border-slate-200 dark:border-slate-800 max-w-7xl mx-auto" />
+
+        <section id="about" class="max-w-7xl mx-auto px-6 py-20">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold tracking-tight">About Me & My Skills</h2>
+                    <p class="mt-4 text-slate-600 dark:text-slate-400 leading-relaxed">
+                        I specialize in combining traditional creative design with cutting-edge AI technologies. From
+                        managing full-scale content strategies to automating asset production, I build assets that drive
+                        real engagement.
+                    </p>
+                    <div class="mt-8 grid grid-cols-2 gap-4">
+                        <div
+                            class="p-4 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <h3 class="font-bold text-lg text-blue-600">AI Prompting</h3>
+                            <p class="text-xs text-slate-500 mt-1">Midjourney, Kling, Veo</p>
+                        </div>
+                        <div
+                            class="p-4 bg-white dark:bg-slate-800 rounded-xl border border-slate-200 dark:border-slate-700">
+                            <h3 class="font-bold text-lg text-blue-600">UI/UX Design</h3>
+                            <p class="text-xs text-slate-500 mt-1">Figma, Canva Layouts</p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="bg-gradient-to-tr from-blue-600 to-indigo-600 rounded-2xl aspect-square flex items-center justify-center text-white text-lg font-bold p-8 shadow-xl">
+                    [ Your Creative Avatar / Image Here ]
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="bg-white dark:bg-slate-950 py-20 transition-colors">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="text-center max-w-xl mx-auto mb-16">
+                    <h2 class="text-3xl font-bold tracking-tight">Selected Projects</h2>
+                    <p class="mt-2 text-slate-600 dark:text-slate-400">A showcase of campaigns, video automation, and
+                        visual design assets.</p>
+                </div>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div
+                        class="group bg-slate-50 dark:bg-slate-900 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 transition-all hover:shadow-md">
+                        <div
+                            class="bg-slate-200 dark:bg-slate-800 aspect-video flex items-center justify-center text-slate-400">
+                            Project Thumbnail
+                        </div>
+                        <div class="p-6">
+                            <span class="text-xs font-semibold text-blue-600 uppercase tracking-wider">AI Video
+                                Automation</span>
+                            <h3 class="text-xl font-bold mt-2 group-hover:text-blue-600 transition-colors">SaaS Promo
+                                Campaign</h3>
+                            <p class="text-sm text-slate-600 dark:text-slate-400 mt-2">Generated 30+ sync dialogue
+                                promotional shorts using Veo 3.1 and CapCut AI.</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="group bg-slate-50 dark:bg-slate-900 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 transition-all hover:shadow-md">
+                        <div
+                            class="bg-slate-200 dark:bg-slate-800 aspect-video flex items-center justify-center text-slate-400">
+                            Project Thumbnail
+                        </div>
+                        <div class="p-6">
+                            <span class="text-xs font-semibold text-blue-600 uppercase tracking-wider">Visual
+                                Content</span>
+                            <h3 class="text-xl font-bold mt-2 group-hover:text-blue-600 transition-colors">E-Commerce
+                                Brand Kit</h3>
+                            <p class="text-sm text-slate-600 dark:text-slate-400 mt-2">Photorealistic product mockups
+                                generated via Nano Banana Pro with exact text rendering.</p>
+                        </div>
+                    </div>
+
+                    <div
+                        class="group bg-slate-50 dark:bg-slate-900 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 transition-all hover:shadow-md">
+                        <div
+                            class="bg-slate-200 dark:bg-slate-800 aspect-video flex items-center justify-center text-slate-400">
+                            Project Thumbnail
+                        </div>
+                        <div class="p-6">
+                            <span class="text-xs font-semibold text-blue-600 uppercase tracking-wider">Copywriting &
+                                Growth</span>
+                            <h3 class="text-xl font-bold mt-2 group-hover:text-blue-600 transition-colors">LinkedIn
+                                Personal Brand</h3>
+                            <p class="text-sm text-slate-600 dark:text-slate-400 mt-2">Designed thought leadership
+                                carousel structures resulting in 2x organic reach.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="max-w-4xl mx-auto px-6 py-20 text-center">
+            <h2 class="text-3xl font-bold tracking-tight">Let’s launch your next campaign</h2>
+            <p class="mt-4 text-slate-600 dark:text-slate-400">
+                Have a project in mind or want to collaborate? Drop a message and let's discuss details.
+            </p>
+            <form class="mt-10 max-w-md mx-auto space-y-4">
+                <input type="email" placeholder="Enter your email" required
+                    class="w-full px-4 py-3 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-600 text-sm transition-all" />
+                <button type="submit"
+                    class="w-full px-6 py-3 bg-slate-900 text-white dark:bg-white dark:text-slate-900 font-semibold rounded-xl text-sm hover:opacity-95 transition-opacity">
+                    Get in Touch
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="border-t border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/50 py-8">
+        <div
+            class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between text-sm text-slate-500">
+            <p>&copy; 2026 NeexG. All rights reserved.</p>
+            <div class="flex space-x-6 mt-4 sm:mt-0">
+                <a href="#" class="hover:text-blue-600 transition-colors">Twitter</a>
+                <a href="#" class="hover:text-blue-600 transition-colors">LinkedIn</a>
+                <a href="#" class="hover:text-blue-600 transition-colors">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
