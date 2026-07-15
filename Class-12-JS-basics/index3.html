@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Data Types</title>
+</head>
+
+<body>
+    <h1>JavaScript Object & Array</h1>
+    <script>
+        const user1 = {
+            firstName: "Prangon",
+            lastName: "Hossain",
+            age: 22,
+            address: "Sathmatha",
+            password: "oidsjfashdfkjashdfiasuydf89a7sdf86a87fasd8f6a87sd6f8a7s6df8asdfuoiajsdf9y", // 123456678
+            email: "prangon@gmail.com"
+        };
+        const user2 = {
+            firstName: "Siam",
+            lastName: "",
+            age: 23,
+            address: "Bogura"
+        };
+        const user3 = {
+            firstName: "Rakibul",
+            lastName: "Hasan",
+            age: 24,
+            address: "Sherpur"
+        };
+
+        console.log(user2.firstName);
+        console.log(user2.age);
+
+        console.log(`${user1.firstName} ${user1.lastName} is ${user1.age} years old, email ${user1.email}`);
+
+        const number = [10, 20, 30, 40, 20, 50, 60];
+        console.log(number[3]);
+        const users = [user1, user2, user3, { firstName: "Unknown", email: "unknowun@gmail.com" }];
+        console.log(users[3].email);
+    </script>
+</body>
+
+</html>

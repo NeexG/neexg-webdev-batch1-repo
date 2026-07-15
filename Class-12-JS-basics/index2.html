@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Data Types</title>
+</head>
+
+<body>
+    <h1>JavaScript Data Types</h1>
+    <script>
+        // Data Types in JS
+        // Primitive Data Types
+
+        // 1. String
+        // 2. Number
+        // 3. Boolean
+        // 4. Undefined
+        // 5. Null
+
+        const password = "1234";
+        console.log(password);
+        console.log(typeof password);
+
+        const numberx = 10;
+        console.log(numberx);
+        console.log(typeof numberx);
+
+        const x = false;
+        console.log(x);
+        console.log(typeof x);
+
+        let nothing;
+        console.log(nothing);
+        console.log(typeof nothing);
+        nothing = "something";
+        console.log(nothing);
+        console.log(typeof nothing);
+
+        let nullExample = null;
+        console.log(nullExample);
+        console.log(typeof nullExample);
+
+        const user = {
+            name: "Rakibul",
+            age: 22
+        }
+
+        // console.log(user !== null);
+        // console.log(typeof user === "object");
+
+        if (user !== null && typeof user === 'object') {
+            console.log("This is a real object!");
+        } else {
+            console.log("This is NOT a real object!");
+        }
+
+    </script>
+</body>
+
+</html>
