@@ -49,6 +49,27 @@
         console.log(false) // false
         console.log(!false) // true
 
+        // spread operator
+        const user = {
+            name: "User 1",
+            email: "email@gmail.com"
+        }
+        console.log(user.age);
+        console.log(user.email);
+
+        const addedNewDataToUser = { ...user, id: 1, age: 31 };
+        // const addedNewDataToUsertest = {
+        //     name: "User 1",
+        //     email: "email@gmail.com", id: 1, age: 31
+        // };
+        console.log(addedNewDataToUser.name, addedNewDataToUser.age);
+
+
+        const numbers = [10, 20, 30, 40, 50];
+        console.log(numbers);
+        const addedNewNumbers = [...numbers, 60, 70, 80];
+        console.log(addedNewNumbers);
+
     </script>
 </body>
 
