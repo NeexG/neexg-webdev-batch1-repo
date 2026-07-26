@@ -39,6 +39,22 @@
 আমরা এখন শিখছি আধুনিক ওয়েবসাইটের সবচেয়ে জনপ্রিয় সিএসএস ফ্রেমওয়ার্ক **Tailwind CSS**। এটি একটি **Utility-First** ফ্রেমওয়ার্ক, যার মানে হলো সিএসএস ফাইলে হাজার লাইনের কোড না লিখে সরাসরি HTML ট্যাগের ভেতরে ক্লাসের মাধ্যমে ডিজাইন করা যায়।
   - Intro to Tailwind CSS
   - Installation (CDN)
+  - Basic Tailwind Typography
+  - Container, Layout and Flexbox in Tailwind
+  - Tailwind Colors and Backgrounds
+  - Tailwind Box Model and Spacing
+  - Tailwind Responsive Design (Mobile-First Approach)
+  - Tailwind Hover, Focus, and Other States
+  - Tailwind Grid
+  - Tailwind Transitions and Animations
+  - Tailwind Customization (Config & Extending)
+
+### * **Core JavaScript:** JavaScript
+আমরা এখন শিখছি আধুনিক ওয়েবসাইটের প্রোগ্রামিং ল্যাঙ্গুয়েজ **JavaScript**। এটি একটি **client-side** প্রোগ্রামিং ল্যাঙ্গুয়েজ, যা ওয়েবসাইটের interactivity এবং dynamism তৈরি করতে ব্যবহৃত হয়।
+  - Intro to JavaScript
+  - JavaScript basics, data types, variables, operators
+  - JavaScript control flow
+  - JavaScript functions
 
 ---
 
@@ -58,6 +74,10 @@ web-development-batch-1 🚀
 |   ├── Class-09-CSS-Practical
 |   ├── Class-10-CSS-Framework
 |   ├── Class-11-CSS-Tailwind-Project
+├── JavaScript Topics
+|   ├── Class-12-JS-Basics/
+|   ├── Class-13-JS-Control-Flow/
+|   ├── Class-14-JS-Function-topics/
 
 ```
 
