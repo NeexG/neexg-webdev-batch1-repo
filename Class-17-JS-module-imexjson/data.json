@@ -1,0 +1,16 @@
+[
+    {
+        "name": "MacBook Pro",
+        "price": 100000,
+        "quantity": 5,
+        "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "image": "image link"
+    },
+    {
+        "name": "MacBook Pro",
+        "price": 100000,
+        "quantity": 5,
+        "description": "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+        "image": "image link"
+    }
+]
